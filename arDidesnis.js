@@ -20,6 +20,6 @@ function arskaiciusxdidesnisuzy(didesnisArNe, skaiciusx, skaiciusy) {
         console.log(skaiciusx+ " didesnis uz " +skaiciusy);
     } else if (didesnisArNe == 1) {
         console.log(skaiciusx+ " mazesnis uz " +skaiciusy);
-    } else (didesnisArNe == 0) 
-        console.log(skaiciusx+ " lygus " +skaiciusy);
-}
+    } else {
+        console.log(skaiciusx+ " lygus " +skaiciusy);}
+    }

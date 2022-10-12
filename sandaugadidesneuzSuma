@@ -1,0 +1,21 @@
+let skaiciusx = +prompt("Įveskite skaičių x")
+let skaiciusy = +prompt("Įveskite skaičių y")
+arsandaugadidesneuzSuma(skaiciusx, skaiciusy);
+
+
+function ardidesne(x) {
+    if (x * y > x + y) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+function arsandaugadidesneuzSuma(didesneArNe, skaicius) {
+    if (didesneArNe == true) {
+        console.log(sandauga + " yra didesnė už sumą");
+    }
+    else {
+        console.log(skaicius + " ");
+    }
+}

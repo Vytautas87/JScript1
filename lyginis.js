@@ -1,4 +1,4 @@
-let skaicius = +prompt("Įveskite skaičių")
+let skaicius = +prompt("Įveskite skaičių");
 let arSkaiciusLyg = arLyginis(skaicius);
 isvestiArLyginis(arSkaiciusLyg, skaicius);
 

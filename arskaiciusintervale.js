@@ -5,7 +5,7 @@ let arYraIn = arYraIntervale(skaicius, iP, iPa);
 arYra(arYraIn, iP, iPa);
 
 function arYraIntervale(x, y, z) {
-    if (x < y || x > z) {
+    if (x > y && x < z) {       // kaip jūs buvot padaręs tai kaip tik randa ar nėra intervale
         return false;
     } else {
         return true;
